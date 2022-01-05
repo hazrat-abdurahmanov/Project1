@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+header{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    justify-content: space-between;
+}
+#navbar h1{
+    font-size: 32px;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+header img{
+    width: 220px;
+    height: 80px;
+}
+header nav ul{
+    display: flex;
+    /* width: 700px; */
+}
+/* header nav ul li{
+    width: 127px;
+} */
+header nav ul li a{
+    color: #fff;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    font-size: 13px;
+    border-radius: 30px;
+}
+header nav ul li a i{
+    padding: 5px 7px;
+}
+header nav ul li a:hover{
+    color: #000;
+    background: #fff;
+}
+header #navbar .search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 70px;
+    padding: 0 0 0 10px;
+    
+}
+header #navbar .search i{
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 30px;
+}
+header #navbar .search input{
+    font-size: 13px;
+    border-radius: 29px;
+    padding: 0 30px 0 15px;
+    height: 30px;
+}
+
+.container{
+    padding: 20px 25px 20px 25px;   
+}
+.container .news{
+    padding-bottom: 10px;
+}
+/* World */
+.container .news h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.container .world .world-image img{
+    width: 300px;
+    height: 200px;
+}
+.container .world{
+    margin-bottom: 15px ;
+}
+.container .world .first{
+    display: flex;
+    margin-bottom: 10px;
+}
+.container .world .first .world-info{
+    margin-left: 10px;
+}
+.container .world .first .world-info .title{
+    font-size: 20px;
+}
+.container .world .first .world-info pre{
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+.container .world .second{
+    display: flex;
+}
+.container .world .second .world-info{
+    margin-left: 10px;
+}
+.container .world .second .world-info .title{
+    font-size: 20px;
+}
+.container .world .second .world-info pre{
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+
+/* Education */
+.container .news .education .ed p{
+    width: 350px;
+}
+.container .news .education{
+    display: flex;
+}
+
+/* Footer */
+.footer{
+    background: rgb(34, 34, 34);
+}
+.footer .contact-form{
+    text-align: center;
+}
+.footer .contact-form .control{
+    width: 700px;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+}
+.footer .contact-form form{
+    color: #fff;  
+}
+.footer .contact-form form h4{
+    font-size: 30px;
+}
+.footer .contact-form .form-group{
+    font-size: 15px;
+}
+.footer .contact-form .form-group input{
+    border-radius: 20px;
+}
+.footer .contact-form .btn{
+    border-radius: 20px;
+    width: 80px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.container .currency{
+    display: flex;
+    padding: 10px;
+}
+.container .currency table{
+    margin-right: 30px;
+}
+
+.container table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .container h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+}
+.footer address{
+    color: #fff;
+    padding-left: 10px;
+}
+.footer .copyright{
+    text-align: center;
+    padding: 15px;
+}
+.container .currency .abb{
+    width: 400px;
+    height: 200px;
+    padding: 40px 30px;
+    margin: 0 30px;
+    border: 1px solid #000;
+    background: #f5f5f5;
+
+}
+/* .container iframe{
+    margin-left: 30px;
+} */
