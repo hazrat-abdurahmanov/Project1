@@ -130,6 +130,14 @@ header #navbar .search input{
     font-size: 15px;
     padding: 5px 0 5px 0;
 }
+/* Media */
+.container .news .media{
+    display: flex;
+    margin: 10px;
+}
+.container .news .media .audio{
+    margin: 0 20px;
+}
 
 /* Education */
 .container .news .education .ed p{
