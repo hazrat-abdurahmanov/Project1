@@ -6,20 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./images/logo.PNG">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>News</title>
+    <link rel="icon" href="./images/logo.PNG">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Project1</title>
 </head>
 
 <body>
     <header>
-
         <nav id="navbar">
             <h1>ParticleNews</h1>
-
             <div class="nav-right">
                 <ul>
                     <li><a href="#world"><i class="fas fa-globe-europe"></i>World</a></li>
@@ -29,7 +27,6 @@
                     <li><a href="#sport"><i class="fas fa-volleyball-ball"></i>Sport</a></li>
                     <li><a href="#more"><i class="fas fa-caret-down"></i>More..</a></li>
                 </ul>
-
                 <div class="search">
                     <input type="text" placeholder="Search..">
                     <i class="fas fa-search"></i>
@@ -37,7 +34,7 @@
             </div>
         </nav>
     </header>
-<del>del tag is here</del>
+
     <div class="container">
         <div class="news">
             <h2 id="world">World News</h2>
@@ -47,15 +44,14 @@
                     <div class="world-image">
                         <img src="./images/covid.jpg" alt="Facebook" />
                     </div>
-
                     <article class="world-info">
                         <div class="title"><strong>After Election Day, <mark>Facebook</mark> groups filled with attacks
                                 on Biden’s
                                 victory</strong></div>
                         <pre>Between Joe Biden’s election <em>win</em> and the Jan. 6 <i>assault</i> on the U.S. Capitol, Facebook groups 
 swelled with at least 650,000 posts attacking the election’s legitimacy, with many calling for 
-violence, an investigation by ProPublica and The Washington Post has found.</pre>
-                        <del>Sorry</del>
+violence, an investigation by ProPublica and The Washington Post &nbsp; has found.</pre>
+                        <del style="text-decoration: line-through;">asdaf</del>
                     </article>
                 </div>
 
@@ -65,7 +61,6 @@ violence, an investigation by ProPublica and The Washington Post has found.</pre
                         <img src="https://cdn.theatlantic.com/media/mt/business/615%20manufacturing%20dudes%20skills%20mismatch.jpg"
                             alt="Facebook" />
                     </div>
-
                     <article class="world-info">
                         <div class="title"><b>A record 4.5 million Americans quit or changed jobs in November</b></div>
                         <pre>A large number of employees have decided in recent months to leave their jobs,
@@ -75,28 +70,29 @@ lured by other employers offering better pay or more flexible schedules.</pre>
                 </div>
             </section>
             <hr>
+
             <h2>Media</h2>
-            <div class="media">
+            <section class="media">
+
                 <div class="video">
                     <video controls width="300">
                         <source src="./videos/videonews.mp4">
                     </video>
                 </div>
-
                 <div class="audio">
                     <audio controls muted>
                         <source src="./sounds/soundnews.mp3">
                     </audio> <br>
-                    <audio controls loop>
+                    <audio controls loop muted>
                         <source src="./sounds/soundnews.mp3">
                     </audio> <br>
-                    <audio controls autoplay>
+                    <audio controls autoplay muted>
                         <source src="./sounds/soundnews.mp3">
                     </audio>
                 </div>
-            </div>
-
+            </section>
             <hr>
+
             <h2 id="education">Education</h2>
             <section class="education">
                 <div class="ed">
@@ -133,12 +129,11 @@ lured by other employers offering better pay or more flexible schedules.</pre>
                 </div>
             </section>
         </div>
-
         <hr>
-        <h2 id="economy">Currency</h2>
 
+        <h2 id="economy">Currency</h2>
         <section class="currency">
-            <table style="width:40%">
+            <table style="width:30%">
                 <tr>
                     <th>Valyuta</th>
                     <th>Kod</th>
@@ -160,6 +155,7 @@ lured by other employers offering better pay or more flexible schedules.</pre>
                     <td>0.6733</td>
                 </tr>
             </table>
+
             <iframe src="https://www.yelo.az/" frameborder="1"></iframe>
 
             <div class="abb">
@@ -171,9 +167,29 @@ lured by other employers offering better pay or more flexible schedules.</pre>
                 </blockquote> <br>
                 <cite>https://abb-bank.az/az/xeberler</cite>
             </div>
+        </section> <hr>
 
+        <h2>Əlavələr</h2>
+        <section class="elaveler">
+            <div>
+                <dt>Orta aylıq əməkhaqqı</dt>
+                <dd>800 &#8380;</dd>
+                <dt>Neftin bir bareli</dt>
+                <dd>85.21 &#36;</dd>
+                </dl>
+            </div>
+
+            <ol>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ol>
+
+            <div>
+                <p>Atalar sözü:
+                    <q>Dəmiri isti-isti döyərlər.</q></p>
+            </div>
         </section>
-
     </div>
 
     <footer class="footer">
@@ -181,7 +197,6 @@ lured by other employers offering better pay or more flexible schedules.</pre>
         <div class="contact-form">
             <form>
                 <h4>Contact us</h4>
-
                 <div class="form-group">
                     <label for="name">Full Name</label><br>
                     <input type="text" id="name" class="control" placeholder="Full name" />
@@ -194,9 +209,7 @@ lured by other employers offering better pay or more flexible schedules.</pre>
                     <label for="message">Message</label><br>
                     <input type="text" id="message" class="control" placeholder="Message..." />
                 </div>
-
                 <button type="submit" class="btn">Send</button>
-
             </form>
 
         </div>
@@ -207,6 +220,7 @@ lured by other employers offering better pay or more flexible schedules.</pre>
         </address>
         <p class="copyright" style="color: #fff;">All <del>correct</del> rights reserved &copy; 2021-2025</p>
     </footer>
+
 </body>
 
 </html>

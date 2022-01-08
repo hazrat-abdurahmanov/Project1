@@ -179,7 +179,7 @@ header #navbar .search input{
 }
 .container .currency{
     display: flex;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
 }
 .container .currency table{
     margin-right: 30px;
@@ -188,6 +188,13 @@ header #navbar .search input{
 .container table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+  }
+
+  .elaveler{
+      display: flex;
+  }
+  .elaveler ol{
+      margin: 0 10px 0 30px;
   }
   .container h2{
     text-align: center;
@@ -208,7 +215,7 @@ header #navbar .search input{
     padding: 40px 30px;
     margin: 0 30px;
     border: 1px solid #000;
-    background: #f5f5f5;
+    background-color: #f5f5f5;
 
 }
 /* .container iframe{
